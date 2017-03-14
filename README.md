@@ -14,3 +14,9 @@ This requires node as a dependecy to run. If node is not installed on your machi
     * `elementKey`
 
 * Set the `object` to the object you want to retrieve the mapping for (e.g. "contacts")
+
+* change into the cloned folder `cd /PipeDriveMapper`  
+* run the server `node index.js`  
+* In your browser navigate to `http://localhost:4000/` to see the mapping
+
+** NOTE: If you make changes to the index.js file you will need to restart the node process to see the changes **
