@@ -1,0 +1,16 @@
+{
+  "name": "pipedrivefieldmapper",
+  "version": "6.10.0",
+  "description": "A mapper for the custom fields in pipedrive",
+  "main": "index.js",
+  "dependencies": {
+    "simple-vanilla-node.js-boilerplate": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "run" : "node index.js"
+  },
+  "author": "Clayton Shaver (Cloud Elements)",
+  "license": "ISC"
+}
