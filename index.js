@@ -6,15 +6,15 @@ const port = 4000;
 
 // Edit these keys here ///
 const object = 'contacts';
-const orgKey = '8e8bd0fd341545566652b4e97cd1e8ac';
-const userKey = '4G+QWCPwoUKo62MEmVBjWfaMGv8BgNXngKqT5mbiJvQ=';
-const elementKey = 'jxg0lbluTZ9kX57fo1pyoQptJimOvPy0oXVvVe7JIoI=';
+const organizationKey = '';
+const userKey = '';
+const elementKey = '';
 ////////////////////////
 
 let requestOptions = {
   url: `https://api.cloud-elements.com/elements/api-v2/hubs/crm/objects/${object}/metadata`,
   headers: {
-    'Authorization' : `User ${userKey}, Organization ${orgKey}, Element ${elementKey}`
+    'Authorization' : `User ${userKey}, Organization ${organizationKey}, Element ${elementKey}`
   }
 }
 
