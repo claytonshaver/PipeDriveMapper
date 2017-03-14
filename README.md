@@ -12,3 +12,5 @@ This requires node as a dependecy to run. If node is not installed on your machi
     * `organizationKey`
     * `userKey`
     * `elementKey`
+
+* Set the `object` to the object you want to retrieve the mapping for (e.g. "contacts")
